@@ -1,5 +1,5 @@
 # ROS-pubsub-cameracalib
-Certainly! Here's a concise description, file structure, and build instructions for your ROS 2 package:
+Here's a concise description, file structure, and build instructions for your ROS 2 package:
 
 ### Description:
 This ROS 2 package contains two nodes for demonstrating camera calibration data exchange. The `CameraCalibrationPublisher` node publishes simulated camera calibration data, including dimensions, distortion model, and camera matrix. The `CameraCalibrationSubscriber` node subscribes to these messages and logs the received data. This setup exemplifies the publisher-subscriber model in ROS 2 using custom messages (`sensor_msgs/msg/CameraInfo`).
@@ -35,3 +35,5 @@ your_package/
 4. **Verify Operation**: Observe the output in the subscriber node's terminal to ensure it is receiving and logging the data published by the publisher node.
 
 This package is an excellent example for learning ROS 2 communication mechanisms, specifically focusing on custom message types and the publisher-subscriber pattern. It can be used as a foundation for more complex robotics applications involving sensor data processing and communication.
+
+Note: Mock-data is used, please take care of any dependencies that may arise for your own system
